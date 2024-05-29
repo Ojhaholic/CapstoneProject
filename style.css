@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.section1{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 3em 2em 3em ;
+    background-color: rgb(0, 0, 0);
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-size: 18px;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    padding: 8px 15px 8px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.section2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(0, 0, 0);
+}
+.fg{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    padding-left: 3em;
+}
+.dp{
+    width: 34em;
+    opacity: 0.7;
+}
+.p1{
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(148, 148, 148);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.p2{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.p3{
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(148, 148, 148);
+    font-family: 'Courier New', Courier, monospace;   
+}
+.dp2 img{
+    border-radius: 50%;
+    width: 12em;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 5rem;
+}
+.s32{
+    display: flex;
+    gap: 7em;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.skill{
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(211, 211, 211, 0.295);
+    padding: 2rem;
+    border-radius: 30px;
+    background-color: black;
+}
+.skill img{
+    width: 15em;
+    height: 7em;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 10px;
+}
+.infohead{
+    font-size: 20px;
+    font-weight: 700;
+}
+.info{
+    max-width: 17vw;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(138, 138, 138);
+    text-align: justify;
+}
+.s31{
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+    padding: 3rem;
+}
+.btn2{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.295);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.fdp{
+    border-radius: 20px;
+    width: 10em;
+}
+.section4{
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+.link2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.link2 p{
+    font-weight: 700;
+    color: rgb(192, 192, 192);
+}
+.link2 a img{
+    width: 2em;
+}
