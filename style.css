@@ -162,7 +162,7 @@
     width: 2em;
 }
 
-@media(max-width: 600px){
+@media(max-width: 800px){
     .links{
         font-size: 13px;
     }
