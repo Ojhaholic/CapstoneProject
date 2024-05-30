@@ -161,3 +161,37 @@
 .link2 a img{
     width: 2em;
 }
+
+@media(max-width: 600px){
+    .links{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+
+    .section2{
+        position: relative;
+    }
+    .fg{
+        position: absolute;
+        z-index: 10;
+    }
+    .bg{
+        opacity: 0.7;
+    }
+
+    .s32{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .skill{
+        max-width: 20rem;
+
+    }
+    .info{
+        max-width: 17rem;
+    }
+}
