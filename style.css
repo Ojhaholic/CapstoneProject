@@ -108,11 +108,7 @@
     border-radius: 30px;
     background-color: black;
 }
-.dp3{
-    border-radius: 50%;
-    width: 30px;
-    border: 1px solid white;
-}
+
 .skill img{
     width: 15em;
     height: 7em;
@@ -166,7 +162,35 @@
 .link2 a img{
     width: 2em;
 }
-
+.dp3{
+    border-radius: 50%;
+    width: 50px;
+    cursor: pointer;
+}
+.dp3:hover{
+    box-shadow: 0 0 10px #ffffff75, 0 0 20px #ffffff8c,0 0 30px #ffffff6c, 0 0 40px #ffffff
+}
+.btn:hover, .btn2:hover{
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 0 10px #ffffff75,0 0 30px #ffffff
+}
+.links a:hover{
+    text-shadow: 0 0 10px #ffffff75,0 0 30px #ffffff,0 0 20px #ffffff
+}
+.btn2 a:hover{
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 0 10px #ffffff75,0 0 30px #ffffff
+}
+.skill:hover{
+    box-shadow: 0 0 10px #ffffff75,0 0 30px #ffffff ;
+}
+.btn2:hover{
+    a{
+        color: rgb(0, 0, 0);
+    }
+}
 @media(max-width: 800px){
     .links{
         font-size: 13px;
@@ -199,6 +223,10 @@
     .skill{
         max-width: 20rem;
 
+    }
+    .dp3{
+        border-radius: 50%;
+        width: 30px;
     }
     .info{
         max-width: 17rem;
